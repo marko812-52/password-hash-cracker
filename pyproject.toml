@@ -1,0 +1,13 @@
+[project]
+name = "password-hash-cracker"
+version = "0.2.0"
+description = "Brute-force a password hash: sequential vs multiprocessing, plus a crack-time estimator"
+authors = [{ name = "Marko Vorok", email = "vorokmarko@gmail.com" }]
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "B"]
